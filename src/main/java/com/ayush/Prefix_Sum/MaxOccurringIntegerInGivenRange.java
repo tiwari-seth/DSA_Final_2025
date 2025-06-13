@@ -58,6 +58,7 @@ public class MaxOccurringIntegerInGivenRange {
         int ind = 0;
         for (int i = 1; i < maxi + 1; i++) {
             arr[i] += arr[i - 1];
+            /*doesn't take into consideration the fact that, if multiple numbers have same occurrence then return the first one only*/
             if (msum < arr[i]) {
                 msum = arr[i];
                 ind = i;
