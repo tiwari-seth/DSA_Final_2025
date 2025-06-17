@@ -26,6 +26,7 @@ Explanation:  [1, 0, 1, 10]: Adds 10 to arr[0] and arr[1].
 public class RangeUpdateQueries {
     public static void main(String[] args) {
         int[] arr = { 10, 5, 20, 40 };
+        /// ////////10, -5, 15, 20
 
         int[][] queries = { { 1, 0, 1, 10 },
                 { 2 },
